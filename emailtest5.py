@@ -16,10 +16,10 @@ def sendemail(from_addr, to_addr_list, cc_addr_list,
     problems = server.sendmail(from_addr, to_addr_list, message)
     server.quit()
     
-sendemail(from_addr    = 'jonlac3@gmail.com', 
-        to_addr_list = ['jlackey@stevens.edu'],
-        cc_addr_list = ['demonburritos@gmail.com'], 
+sendemail(from_addr    = 'enter email>', 
+        to_addr_list = ['enter email>'],
+        cc_addr_list = ['enter email>'], 
         subject      = 'This is a test', 
         message      = 'This is the message for the test', 
-        login        = 'jonlac3@gmail.com', 
-        password     = 'vincent97')
+        login        = '<enter email>', 
+        password     = '<enter password>')
